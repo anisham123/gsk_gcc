@@ -1,0 +1,11 @@
+<!-- templates/index.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Welcome, {{ name }}!
+  <br><br><br>
+  <a href="/dashapp" class="btn btn-success"><b>{{name}}</b> Go to the dashboard for toxic comments analysis </a>
+</h1>
+{% endblock %}
